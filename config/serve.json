@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://testsharepoint429.sharepoint.com/sites/mySite01/Lists/Work%20Status/AllItems.aspx",
+      "fieldCustomizers": {
+        "PercentComplete": {
+          "id": "294b0336-89ea-4283-8057-98c31b3be34f",
+          "properties": {
+            "greenMinLimit": "85",
+  "yellowMinLimit": "70"
+          }
+        }
+      }
+    },
+    "helloFieldCustomizer": {
+      "pageUrl": "https://{tenantDomain}/SitePages/myPage.aspx",
+      "fieldCustomizers": {
+        "InternalFieldName": {
+          "id": "294b0336-89ea-4283-8057-98c31b3be34f",
+          "properties": {
+            "sampleText": "Value"
+          }
+        }
+      }
+    }
+  }
+}

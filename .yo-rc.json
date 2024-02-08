@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.17.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "sp-fx-filed-customizer",
+    "libraryId": "431b3f45-d53e-4b06-85da-bb918d95c881",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "SPFxFiledCustomizer",
+    "solutionShortDescription": "SPFxFiledCustomizer description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "FieldCustomizer"
+  }
+}
